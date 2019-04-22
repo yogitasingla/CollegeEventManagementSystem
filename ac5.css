@@ -1,0 +1,22 @@
+
+body{
+	font-family: Lucida Bright;
+	font-size: 20px;
+	border: 5px solid darkblue;
+	max-width:600px;
+	margin:100px auto;
+	padding: 40px 40px 40px 40px;
+	text-align: center;
+}
+input[type=password] ,input[type=email]{
+	width:80%;
+	padding:10px;
+	
+	box-sizing: border-box;
+	margin-top:6px;
+	margin-bottom: 6px;
+	resize:vertical;
+} 
+
+
+

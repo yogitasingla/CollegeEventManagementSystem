@@ -1,0 +1,70 @@
+body{
+	font-family: Lucida Bright;
+	
+	border :10px solid gray; 
+
+	max-width: 700px;
+	margin:100px auto;
+	padding: 40px 40px 40px 40px;
+	font-size:20px;
+	/*background-color: linen;*/
+	background-image :url("https://img2.thejournal.ie/inline/3022002/original/?width=630&version=3022002");
+	
+
+	background-size:contain;
+	background-origin: content-box;
+}
+
+
+
+h1{
+	text-align:center;
+	color:darkblue;
+	font-size :2.9rem;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h3{
+	text-align:center;
+}
+input[type=text] ,input[type=email], input[type=tel]{
+	width:100%;
+	padding:10px;
+	border :5px solid blue;
+	border-radius:10px;
+	box-sizing: border-box;
+	margin-top:6px;
+	margin-bottom: 6px;
+	resize:vertical;
+} 
+.gender{
+	margin-left:6px;
+	margin-bottom: 15px;
+	margin-top:2px;
+
+}
+.gen{
+	margin-left:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+
+select{
+	width:32.4%;
+	border :5px solid blue;
+	border-radius:10px;
+	box-sizing: border-box;
+	margin-top:6px;
+	margin-bottom: 6px;
+	resize:vertical;
+	padding:10px;
+}
+.button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}

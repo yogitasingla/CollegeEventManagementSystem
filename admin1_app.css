@@ -1,0 +1,17 @@
+body{
+	border:5px solid gray;
+	font-family:"Castellar";
+	font-size:30px;
+	color:white;
+	padding:20px 30px 20px 20px;
+	width:60%;
+	margin:150px 250px 50px 250px;
+
+
+}
+li{
+	border:3px solid black;
+	background-color:black;
+
+	margin:10px 10px 10px 10px;
+}

@@ -1,0 +1,35 @@
+body{
+	font-family: Lucida Bright;
+	font-size: 20px;
+	border: 7px solid darkblue;
+	max-width:700px;
+	margin:100px auto;
+	padding: 40px 40px 40px 40px;
+	text-align: center;
+}
+h3{
+	text-align:center;
+	color:darkblue;
+	font-size :1.5rem;
+	text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+	margin-bottom:30px;
+		}
+	
+	h1{
+	text-align:center;
+	color:darkblue;
+	font-size :2.9rem;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.button {
+  background-color: green;
+  border: 2px solid blue;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top:10px;
+	  }

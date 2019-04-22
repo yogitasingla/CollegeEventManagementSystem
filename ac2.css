@@ -1,0 +1,35 @@
+body{
+	font-family: Lucida Bright;
+	font-size: 20px;
+	border: 7px solid darkblue;
+	max-width:700px;
+	margin:100px auto;
+	padding: 40px 40px 40px 40px;
+	text-align: center;
+	}
+input[type=text] {
+	width:30%;
+	padding:10px;
+	border :3px solid pink;
+	
+	box-sizing: border-box;
+	margin-top:6px;
+	margin-bottom: 6px;
+	resize:vertical;
+} 
+.button {
+  background-color: red; /* Green */
+  border: 2px solid black;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+h3{
+	text-align:center;
+	color:darkblue;
+	font-size :1.5rem;
+	text-shadow: -1px 0 pink, 0 1px pink, 1px 0 pink, 0 -1px pink;
+}
