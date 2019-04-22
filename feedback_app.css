@@ -1,0 +1,47 @@
+.button {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin-top:20px ;
+}
+.feedback{
+	margin-left:6px;
+	margin-bottom: 15px;
+	margin-top:2px;
+
+}
+.gen{
+	margin-left:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+	}
+	body{
+		border:5px solid black;
+		max-width:800px;
+		margin-top:100px;
+		margin-left:200px;
+		margin-bottom:50px;
+		padding:50px 50px 50px 70px;
+		font-size: 18px;
+		font-family:  "Lucida Bright";
+		
+
+
+	}
+	input[type=text] ,input[type=email]{
+	width:30%;
+	padding:10px;
+	margin-top:10px;
+	margin-bottom:6px;
+}
+	h1{
+		text-align:center;
+		color:gray;
+		font-size:3.0rem;
+
+	}
