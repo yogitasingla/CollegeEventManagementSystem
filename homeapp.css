@@ -1,0 +1,54 @@
+.main-logo h2{
+	color: #ffffff;
+	margin:4.8px 0px 0px;
+	padding:3.2px 0px 0px;
+	font-size:19.2px;  
+	font-family: "Titillium Web",sans-serif;
+	background:blue;
+	}
+	p.highlight{
+		margin:3.2px 0px 8px;
+
+	}
+	section#g-navigation.transparent{
+		color:#000000;
+		font-size:13.6px;
+		font-family:"Raleway",sans-serif;
+		background:#0054A6;
+		padding:16px 8px 0px;
+
+	}
+	img{
+		margin:0px 9.6px 0px 0px;
+		
+	}
+	div#logo-4187-particle.g-content.g-particle{
+		color:#000000;
+		font-size:13.6px;
+		font-family:"Raleway",sans-serif;
+		padding:0px 0px 16px;
+	}
+	p{
+		color:#ffffff;
+		font-size:13.6px;
+		font-family:"Raleway",sans-serif;
+		margin:3.2px 0px 8px;
+		background:blue;
+	}
+	div.g-content{
+		color:#000000;
+		padding:0px 0px 16px;
+		font-size:13.6px;
+		font-family:"Raleway",sans-serif;
+	}
+	span{
+		color:#000000;
+		font-size:13.6px;
+		font-family:"Raleway",sans-serif;
+		background:#ffffff;
+		padding:0px 5px 1px;
+
+	}
+	h2{
+		font-family: "Titillium Web",sans-serif;
+	}
