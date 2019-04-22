@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apeejay stya university college event site</title>
+	<link rel ="stylesheet" type= text/css href="homepage_app.css"></title>
+	
+	
+</head>
+<body>
+<div class ="grid">
+	
+	<div class= "header">
+
+		<h2 >
+		<div class="g_logo">
+			<img src="https://university.apeejay.edu/images/apeejay_stya_university_logo.png" alt="appejay logo" style="float:left;" >
+		</div>
+		<div class ="g_50_year">
+	    	<img src="https://university.apeejay.edu/templates/g5_helium/custom/images/50-years.png" alt="apj 50-year logo" style="float:right;">
+	    </div>	
+	    
+	    	Apeejay Stya University
+	    
+	    </h2>	
+		
+		<p >
+			India's 1st Industry-Centric Technology & Liberal Arts University focused on Research & Innovation<sup><small>TM</small></sup>
+		</p>
+
+		<p class="highlight">
+			<span>UGC Recognised</span>
+		</p>
+	</div>
+	<div class = "navigation">	
+		<ul>
+			<li> <a class ="active" href="homepage.html">home</a></li>
+  			<li><a  href="c1.html">Registration</a></li>
+  			<li><a href="c5.html">login</a></li>
+  			<li><a href="admin.html">Admin</a></li>
+  			<li><a href="https://university.apeejay.edu/about-the-university">About</a></li>
+  			<li><a href="Feedback.html">Feedback</a></li>
+ 			
+		</ul>
+	</div>	
+</div>
+
+
+<div class="photo">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://university.apeejay.edu/images/event/shine-at-irw/image-1.jpg" style="width:100%">
+  <div class="text">Cultural fest</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://pbs.twimg.com/media/D18LVl2XcAIDjs5.jpg" style="width:100%">
+  <div class="text">Sports fest</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://static.careers360.mobi/media/presets/500X333/colleges/social-media/media-gallery/12/2018/9/27/IT%20Lab%20of%20Apeejay%20Stya%20University%20Sohna_IT-Lab.jpg" style="width:100%">
+  <div class="text">Technical Fest</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<div class="elaan">
+<h1 >ELAAN</h1>
+</div>
+<img src="https://elaan2019.in/wp-content/uploads/2019/03/tarang.png " alt ="tarang" style="width:300px;height:300px;"><br>
+<img src="https://elaan2019.in/wp-content/uploads/2019/03/energia.png " alt="energia" style="width:300px;height:300px;"><br>
+<img src="https://elaan2019.in/wp-content/uploads/2019/03/techshield.png " alt="techshield" style="width:400px;height:300px;"> 
+
+
+
+
+
+
+</body>
+</html>
